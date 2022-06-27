@@ -112,7 +112,7 @@ class _ReviewRideState extends State<ReviewRide> {
             SizedBox(
               height: MediaQuery.of(context).size.height,
               child: MapboxMap(
-                accessToken: dotenv.env['MAPBOX_ACCESS_TOKEN'],
+                accessToken: dotenv.env['MAPBOX_ACCESS_TOKEN']!,
                 initialCameraPosition: _initialCameraPosition,
                 onMapCreated: _onMapCreated,
                 onStyleLoadedCallback: _onStyleLoadedCallback,

@@ -47,7 +47,7 @@ class _TurnByTurnState extends State<TurnByTurn> {
         mode: MapBoxNavigationMode.drivingWithTraffic,
         isOptimized: true,
         units: VoiceUnits.metric,
-        simulateRoute: true,
+        simulateRoute: false,
         language: "en");
 
     // Configure waypoints
